@@ -4,7 +4,7 @@ This project uses a basic neural network model built with Python to predict diab
 
 ## 📌 Features
 - Uses a neural network for binary classification
-- Based on the Pima Indians Diabetes dataset
+- Based on the Diabetes_prediction_dataset
 - Implemented in a Jupyter Notebook
 
 ## 🚀 Technologies Used
