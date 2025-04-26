@@ -1,25 +1,50 @@
-# Diabetes Prediction using Neural Network 🧠
+# Diabetes Prediction Project
 
-This project uses a basic neural network model built with Python to predict diabetes based on patient data. It is aimed at beginners and includes clear steps from data loading to model evaluation.
+This project predicts whether a person is diabetic or not using two different machine learning approaches:
 
-## 📌 Features
-- Uses a neural network for binary classification
-- Based on the Diabetes_prediction_dataset
-- Implemented in a Jupyter Notebook
+1. **Random Forest Classifier** (Achieved 100% Accuracy)
+2. **Neural Network (Deep Learning)** (Achieved 87% Accuracy)
 
-## 🚀 Technologies Used
-- Python
-- Pandas
-- Scikit-learn
-- TensorFlow or Keras (if used)
+Both models were trained and tested using the same dataset.
+
+---
+
+## 📂 Project Structure
+
+| File/Folder | Description |
+|:---|:---|
+| `diabetes_dataset.csv` | Dataset containing health-related features for diabetes prediction. |
+| `USING_RANDOM_FOREST_Accuracy-100%.ipynb` | Jupyter Notebook implementing Random Forest Classifier model. |
+| `USING_NEURAL_NETWORK_87.ipynb` | Jupyter Notebook implementing Neural Network model. |
+| `README.md` | Project description and guidelines (this file). |
+
+---
+
+## ⚙️ How to Run
+
+1. Clone or download this repository.
+2. Open the Jupyter Notebooks one by one:
+   - First, `USING_RANDOM_FOREST_Accuracy-100%.ipynb`
+   - Then, `USING_NEURAL_NETWORK_87.ipynb`
+3. Execute all cells in the notebooks to train and evaluate the models.
+4. The dataset `diabetes_dataset.csv` must be in the same directory as the notebooks.
+
+---
+
+## 📚 Requirements
+
+- Python 3.x
 - Jupyter Notebook
+- Libraries:
+  - pandas
+  - numpy
+  - scikit-learn
+  - tensorflow
+  - keras
+  - matplotlib
+  - seaborn
 
-## 📈 Output
-The model predicts whether a patient is diabetic (`1`) or non-diabetic (`0`) based on features like glucose level, BMI, and age.
+You can install all dependencies using:
 
-## 🧑‍🎓 Author
-This project is part of my machine learning learning journey as a beginner.
-
-## 🔗 How to Run
-Open the `.ipynb` file using Jupyter Notebook or Google Colab.
-
+```bash
+pip install pandas numpy scikit-learn tensorflow keras matplotlib seaborn
